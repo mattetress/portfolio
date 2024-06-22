@@ -4,19 +4,19 @@ const data = [
     types: ["Java"],
     languages: ["java", "mysql"],
     title: "Scheduling System",
-    shortDesc: "JavaFX application which provides GUI for managing appointments in database.",
+    shortDesc: "Sophisticated JavaFX application for appointment management with a robust MySQL backend.",
     fullDesc: [
-      "JavaFX application for WGU Software II that provides a GUI for members of an organization to manage customers and appointments in their database.",
-      "Uses JDBC to connect with a MySQL database and displays data in tables and forms. "
+      "Developed a comprehensive JavaFX application for WGU Software II, enabling organizations to efficiently manage customers and appointments via an intuitive GUI.",
+      "Implemented JDBC for seamless MySQL database integration, showcasing real-time data in interactive tables and forms."
     ],
     splashImage: "/assets/scheduling.png",
     largeImage: "/assets/scheduling.png",
     githubURL: "https://github.com/RubyMineshaft/scheduling_system",
     demoURL: null,
     bullets: [
-      "Leverages resource bundles to automatically translate based on system default.",
-      "Utilizes Lambda expressions for more efficient lines of code.",
-      "Converts times from UTC to system time for display. Validates against EST business hours before creating or updating records."
+      "Integrated resource bundles for automatic language translation based on system defaults.",
+      "Enhanced code readability and maintainability using Lambda expressions.",
+      "Implemented time zone conversions from UTC to system time, with validation against EST business hours before updating records."
     ]
   },
   {
@@ -24,20 +24,20 @@ const data = [
     types: ["JavaScript", "React"],
     languages: ["javascript", "react", "scss", "html"],
     title: "Personal Portfolio",
-    shortDesc: "JavaFX application which provides GUI for managing appointments in database.",
+    shortDesc: "Dynamic portfolio showcasing web development expertise, built with React and SCSS.",
     fullDesc: [
-      "We're definitely getting a bit recursive here; this is the site you're currently browsing!",
-      "This portfolio was written in React.  It uses EmailJS for sending the contact form and material-ui for some of the icons. It has a responsive design using SCSS mixins and media queries."
+      "This portfolio site, showcasing my projects and skills, is built with React and features a responsive design utilizing SCSS mixins and media queries.",
+      "Integrated EmailJS for seamless contact form functionality and material-ui for modern icons, enhancing user experience."
     ],
     splashImage: "/assets/portfolio.png",
     largeImage: "/assets/portfolio.png",
     githubURL: "https://github.com/RubyMineshaft/portfolio",
     demoURL: "http://mattetress.com",
     bullets: [
-      "Utilizes React hooks for managing state.",
-      "CSS animations for smoother transitions and slider functionality.",
-      "Responsive design using media queries.",
-      "iTyped.js library used for typing effect on home page."
+      "Leveraged React hooks for efficient state management.",
+      "Enhanced UI with CSS animations for smooth transitions and slider functionality.",
+      "Designed with a mobile-first approach ensuring responsiveness across all devices.",
+      "Implemented iTyped.js for engaging typing effects on the homepage."
     ]
   },
   {
@@ -45,19 +45,20 @@ const data = [
     types: ["Ruby", "Rails", "JavaScript"],
     languages: ["ruby", "rails", "javascript", "html", "bootstrap", "postgresql"],
     title: "ArtHub",
-    shortDesc: "An event sharing platform for artists",
+    shortDesc: "Innovative event sharing platform for artists, built with Rails and jQuery.",
     fullDesc: [
-      "ArtHub is an event sharing platform for artists. It allows users to create accounts by email or by signing in with Facebook. It has limited portfolio functionality, and allows users to save events they are interested in."
+      "ArtHub is a unique platform for artists to share events, create portfolios, and connect with the community. Users can sign up via email or Facebook, and save events of interest.",
+      "The platform incorporates a Rails API, ActiveModel Serializers, and integrates AWS S3 for reliable attachment management."
     ],
     splashImage: "/assets/arthub-splash.png",
     largeImage: "/assets/arthub-full.png",
     githubURL: "https://github.com/RubyMineshaft/arthub-rails",
     demoURL: "https://arthub-rails.herokuapp.com/",
     bullets: [
-      "OAuth authentication strategy with Omniauth-Facebook gem",
-      "jQuery and JavaScript used for AJAX functionality",
-      "Rails API with ActiveModel Serializers.",
-      "Manages attachments with Active Storage and AWS S3 Bucket."
+      "Implemented OAuth authentication with Omniauth-Facebook gem.",
+      "Enhanced interactivity with AJAX using jQuery and JavaScript.",
+      "Managed complex data relationships with ActiveModel Serializers.",
+      "Utilized AWS S3 for secure and scalable attachment storage."
     ]
   },
   {
@@ -65,19 +66,19 @@ const data = [
     types: ["Ruby"],
     languages: ["ruby", "bootstrap", "html", "postgresql"],
     title: "DreamCatcher",
-    shortDesc: "Dream journal app with sinatra",
+    shortDesc: "Elegant dream journal application leveraging Sinatra and PostgreSQL.",
     fullDesc: [
-      "This was my first Ruby web app.  It was written with the Sinatra framework and uses Sinatra ActiveRecord to interface with a PostgreSQL database.",
-      "DreamCatcher is an online dream journal that allows people to log their dreams privately or share them with others.  Users are able to comment on public dreams and explore through a tagging system."
+      "DreamCatcher is an engaging online dream journal allowing users to log, share, and comment on dreams. Built with the Sinatra framework and interfaced with PostgreSQL via Sinatra ActiveRecord.",
+      "Designed for a seamless user experience, it features private and public dream logging and a robust tagging system for exploration."
     ],
     splashImage: "/assets/dreamcatcher-thumb.png",
     largeImage: "/assets/dreamcatcher-full.png",
     githubURL: "https://github.com/RubyMineshaft/dreamcatcher-sinatra-app",
     demoURL: "http://dreamcatcher-sinatra.herokuapp.com/",
     bullets: [
-      "Implements session-based user authentication with bcrypt gem and has_secure_password.",
-      "Designed and styled using Bootstrap 4 and CSS.",
-      "ActiveRecord with PostgreSQL for data persistence."
+      "Implemented secure session-based user authentication using bcrypt gem.",
+      "Designed an intuitive and visually appealing UI with Bootstrap 4.",
+      "Ensured data integrity and persistence with ActiveRecord and PostgreSQL."
     ]
   },
   {
@@ -85,39 +86,40 @@ const data = [
     types: ["React", "Ruby", "Rails", "JavaScript"],
     languages: ["javascript", "react", "redux", "rails", "html", "css", "postgresql"],
     title: "TVPal",
-    shortDesc: "Web app (React, Rails) that queries theMovieDB API and allows users to track television shows.",
+    shortDesc: "Comprehensive TV tracking application utilizing React and Rails, integrated with theMovieDB API.",
     fullDesc: [
-      "TVPal is a React web application that queries theMovieDB API and allows users to track and discover television shows. It has interfaces that display the most popular shows, top rated shows, shows airing today, and allows the user to search for a specific show.",
-      "TVPal has a Ruby on Rails back end that is primarily used for account creation and authentication for now."
+      "TVPal is a versatile web application for tracking and discovering TV shows, powered by React and Rails. It interfaces with theMovieDB API to display popular, top-rated, and airing shows, and supports user search functionality.",
+      "The backend, built with Ruby on Rails, handles user account creation and authentication, providing a secure and seamless user experience."
     ],
     splashImage: "/assets/tvpal-thumb.png",
     largeImage: "/assets/tvpal-full.png",
     githubURL: "https://github.com/RubyMineshaft/tv-pal",
     demoURL: "https://tv-pal.herokuapp.com/",
     bullets: [ 
-       "Redux Thunk middleware for making asynchronous API calls and dispatching actions.", 
-       "RESTful API using Ruby on Rails and the MVC pattern.", 
-       "Takes advantage of React Router for rendering components to the DOM.", 
-       "Handles user authentication with JWT based authentication."]
+       "Employed Redux Thunk middleware for efficient asynchronous API calls and action dispatching.", 
+       "Built a RESTful API using Ruby on Rails following the MVC pattern.", 
+       "Implemented React Router for dynamic component rendering.", 
+       "Ensured secure user authentication with JWT."
+    ]
   },
   {
     id: 6,
     types: ["Java"],
     languages: ["java"],
     title: "Inventory System",
-    shortDesc: "Simple inventory management system for WGU Software I.",
+    shortDesc: "Robust inventory management system developed for WGU Software I.",
     fullDesc: [
-      "This is a simple inventory management system written for WGU Software I. It allows users to create, update, and delete products and associated parts as well as manage inventory levels.",
-      "The GUI was built following mock-ups provided. This application is not connected to a database and, therefore, has no data persistence."
+      "Developed a comprehensive inventory management system for WGU Software I, enabling users to manage products and parts, and track inventory levels efficiently.",
+      "The application follows provided mock-ups for the GUI and ensures smooth user interactions, despite lacking data persistence."
     ],
     splashImage: "/assets/inventory-thumb.png",
     largeImage: "/assets/inventory.png",
     githubURL: "https://github.com/RubyMineshaft/InventorySystem",
     demoURL: null,
     bullets: [
-      "JDK: Java 11.0.10",
-      "JavaFX 11.0.2",
-      "Allows users to search for parts/products by ID or name.",
+      "Built with JDK: Java 11.0.10 and JavaFX 11.0.2.",
+      "Enabled search functionality for parts/products by ID or name.",
+      "Provided an intuitive and user-friendly interface for inventory management."
     ]
   },
   {
@@ -125,21 +127,44 @@ const data = [
     types: ["Ruby"],
     languages: ["ruby"],
     title: "SeaLife",
-    shortDesc: "Command line interface gem that uses Nokogiri to scrape data from Oceana's Marine Life Encyclopedia and provides information about various marine animals.",
+    shortDesc: "Informative CLI gem for exploring marine life, leveraging Nokogiri for web scraping.",
     fullDesc: [
-      "SeaLife is a command line interface gem that uses Nokogiri to scrape data from Oceana's Marine Life Encyclopedia and provides information about various marine animals.",
-      "This was my first Ruby Object Oriented Programming adventure. It was a lot of fun to make.  Check it out on rubygems.org using the live demo button below, or install it and try it out by running \"gem install sea_life\" from your terminal."
+      "SeaLife is an educational command line interface gem that scrapes data from Oceana's Marine Life Encyclopedia using Nokogiri, providing detailed information about various marine animals.",
+      "This project marked my first exploration into Ruby OOP principles, resulting in a functional and engaging CLI tool."
     ],
     splashImage: "/assets/sealife-thumb.png",
     largeImage: "/assets/sealife-full.png",
     githubURL: "https://github.com/RubyMineshaft/sea_life",
     demoURL: "https://rubygems.org/gems/sea_life",
     bullets: [
-      "Procedural CLI following Ruby OOP principles and best practices",
-      "Uses Nokogiri to scrape data from Oceana’s Marine Encyclopedia"
+      "Developed a procedural CLI adhering to Ruby OOP principles and best practices.",
+      "Leveraged Nokogiri for efficient web scraping from Oceana's Marine Encyclopedia."
     ]
-  }
-]
+  },
+  {
+    id: 8,
+    types: ["Python", "Django", "React", "TypeScript"],
+    languages: ["python", "django", "typescript", "react", "html", "css"],
+    title: "Prize Voucher Redemption System",
+    shortDesc: "A robust system for generating and redeeming prize vouchers for OGS-sponsored in-person tournaments, enhancing player retention and new registrations.",
+    fullDesc: [
+      "Developed a comprehensive prize ticket redemption system for OGS-sponsored in-person tournaments, significantly boosting player retention and attracting new registrations.",
+      "The backend is built with Python and Django Rest Framework, while the frontend is crafted using TypeScript and React."
+    ],
+    splashImage: "/assets/prize_thumb.png",
+    largeImage: "/assets/prize1.png",
+    githubURL: "https://github.com/online-go/online-go.com/tree/2bc202057c41f11578c9ca5d6c8204afd335e524/src/views/Prizes",
+    demoURL: "https://online-go.com/redeem",
+    bullets: [
+      "Designed and implemented API endpoints using Django Rest Framework, facilitating seamless communication between the frontend and backend.",
+      "Created serializers and models to manage prize ticket data efficiently.",
+      "Developed secure and efficient code generation algorithms to ensure unique prize codes.",
+      "Built a responsive frontend with TypeScript and React, enabling tournament directors to generate printer-friendly vouchers.",
+      "Implemented CRUD functionalities for managing prize tickets and batches, ensuring ease of use for administrators.",
+    ]
+  },
+
+];
 
 export function getAllProjects() {
   return data;
@@ -151,13 +176,13 @@ export function getProjectType(type) {
 
 export function getTypes() {
   let arr = ["All"];
-    for (let i = 0; i < data.length; i++) {
-      for (let j = 0; j < data[i].types.length; j++) {
-        const type = data[i].types[j];
-        if (!arr.includes(type)) {
-          arr.push(type);
-        }
+  for (let i = 0; i < data.length; i++) {
+    for (let j = 0; j < data[i].types.length; j++) {
+      const type = data[i].types[j];
+      if (!arr.includes(type)) {
+        arr.push(type);
       }
     }
-    return arr;
+  }
+  return arr;
 }
