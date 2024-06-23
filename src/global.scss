@@ -19,3 +19,7 @@ $small-width: 1000px;
     @content
   }
 };
+
+body {
+  overflow: hidden;
+}
