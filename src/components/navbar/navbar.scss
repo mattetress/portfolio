@@ -8,7 +8,7 @@
   position: fixed;
   top: 0;
   z-index: 3;
-  transition: all 1s ease;
+  transition: all 0.3s ease;
 
 
   .wrapper {
@@ -70,7 +70,7 @@
           height: 3px;
           background-color: $C-2;
           transform-origin: left;
-          transition: all 1s ease;
+          transition: all 0.3s ease;
         }
       }
     }
