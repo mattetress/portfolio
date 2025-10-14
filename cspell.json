@@ -1,16 +1,19 @@
 {
     "version": "0.2",
-    "ignorePaths": [".gitignore", "package.json"],
+    "ignorePaths": ["package.json", ".*"],
     "words": [
         "arthub",
         "dreamcatcher",
+        "Etress",
+        "ityped",
         "JDBC",
+        "langicon",
+        "mattetress",
         "Nokogiri",
         "Oceana's",
         "Omniauth",
         "sealife",
         "tvpal",
-        "Etress",
-        "ityped"
+        "wordmark"
     ]
 }
