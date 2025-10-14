@@ -1,28 +1,48 @@
-import React from 'react';
-import { getAllProjects } from '../../ProjectData';
-import Project from './Project';
+import React from "react";
+import { getAllProjects } from "../../ProjectData";
+import Project from "./Project";
 import "./projects.scss";
-import NavigateNextIcon from '@material-ui/icons/NavigateNext';
-import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faChevronLeft,
+    faChevronRight,
+} from "@fortawesome/free-solid-svg-icons";
 
-export default function Projects({currentSlide, setCurrentSlide}) {
+export default function Projects({ currentSlide, setCurrentSlide }) {
+    const handleClick = (dir) => {
+        if (dir === "back") {
+            setCurrentSlide(
+                currentSlide > 1 ? currentSlide - 1 : getAllProjects().length
+            );
+        } else {
+            setCurrentSlide(
+                currentSlide === getAllProjects().length ? 1 : currentSlide + 1
+            );
+        }
+    };
 
-  const handleClick = (dir) => {
-    if (dir === "back") {
-      setCurrentSlide(currentSlide > 1 ? currentSlide - 1 : getAllProjects().length);
-    } else {
-      setCurrentSlide(currentSlide === getAllProjects().length ? 1 : currentSlide + 1);
-    }
-  }
-
-  return (
-    <div className="projects" id="projects">
-      <div className="slider" style={{transform: `translateX(-${(currentSlide - 1) * 100}vw)`}} >
-        
-        {getAllProjects().map(project => <Project project={project} />)}
-      </div>
-      <NavigateNextIcon className="next" onClick={() => handleClick("next")} />
-      <NavigateBeforeIcon className="back" onClick={() => handleClick("back")} />
-      </div>
-  )
+    return (
+        <div className="projects" id="projects">
+            <div
+                className="slider"
+                style={{
+                    transform: `translateX(-${(currentSlide - 1) * 100}vw)`,
+                }}
+            >
+                {getAllProjects().map((project) => (
+                    <Project project={project} />
+                ))}
+            </div>
+            <FontAwesomeIcon
+                icon={faChevronLeft}
+                className="back"
+                onClick={() => handleClick("back")}
+            />
+            <FontAwesomeIcon
+                icon={faChevronRight}
+                className="next"
+                onClick={() => handleClick("next")}
+            />
+        </div>
+    );
 }
