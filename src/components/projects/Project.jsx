@@ -1,9 +1,9 @@
 import React from "react";
-import "./project.scss";
-import LangIcon from "../langicon/LangIcon";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEarthAmericas, faCheck } from "@fortawesome/free-solid-svg-icons";
+import { faCheck, faEarthAmericas } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import LangIcon from "../langicon/LangIcon";
+import "./project.scss";
 
 export default function Project({ project }) {
     function demoLink() {

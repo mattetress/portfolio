@@ -1,10 +1,6 @@
-import React from 'react';
+import React from "react";
 import "./resume.scss";
 
 export default function Resume() {
-  return (
-    <div className="resume" id="resume">
-      
-    </div>
-  )
+    return <div className="resume" id="resume"></div>;
 }

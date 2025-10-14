@@ -1,11 +1,11 @@
-import Navbar from "./components/navbar/Navbar";
-import Info from "./components/info/Info";
-import Portfolio from "./components/portfolio/Portfolio";
-import Contact from "./components/contact/Contact";
-import Menu from "./components/menu/Menu";
-import "./app.scss";
 import { useState } from "react";
+import Contact from "./components/contact/Contact";
+import Info from "./components/info/Info";
+import Menu from "./components/menu/Menu";
+import Navbar from "./components/navbar/Navbar";
+import Portfolio from "./components/portfolio/Portfolio";
 import Projects from "./components/projects/Projects";
+import "./app.scss";
 
 function App() {
     const [menuActive, setMenuActive] = useState(false);

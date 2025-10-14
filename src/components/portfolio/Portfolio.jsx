@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import PortfolioList from "./PortfolioList";
-import "./portfolio.scss";
 import PortfolioCard from "./PortfolioCard";
+import PortfolioList from "./PortfolioList";
 import { getAllProjects, getProjectType, getTypes } from "../../data/utils";
+import "./portfolio.scss";
 
 export default function Portfolio({ setCurrentSlide }) {
     const [filteredProjects, setFilteredProjects] = useState(getAllProjects());

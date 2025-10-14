@@ -1,21 +1,21 @@
-import { getAllProjects } from "../../data/utils";
-import Project from "./Project";
-import "./projects.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faChevronLeft,
     faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Project from "./Project";
+import { getAllProjects } from "../../data/utils";
+import "./projects.scss";
 
 export default function Projects({ currentSlide, setCurrentSlide }) {
     const handleClick = (dir) => {
         if (dir === "back") {
             setCurrentSlide(
-                currentSlide > 1 ? currentSlide - 1 : getAllProjects().length
+                currentSlide > 1 ? currentSlide - 1 : getAllProjects().length,
             );
         } else {
             setCurrentSlide(
-                currentSlide === getAllProjects().length ? 1 : currentSlide + 1
+                currentSlide === getAllProjects().length ? 1 : currentSlide + 1,
             );
         }
     };

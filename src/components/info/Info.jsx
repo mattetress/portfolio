@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from "react";
-import "./info.scss";
-import { init } from "ityped";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faSquareLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faCaretDown } from "@fortawesome/free-solid-svg-icons";
+import { faCaretDown, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { init } from "ityped";
+import "./info.scss";
 
 export default function Info() {
     const titleRef = useRef();
