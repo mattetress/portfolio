@@ -1,19 +1,16 @@
 {
     "version": "0.2",
-    "ignorePaths": [],
-    "dictionaryDefinitions": [],
-    "dictionaries": [],
+    "ignorePaths": [".gitignore", "package.json"],
     "words": [
         "arthub",
         "dreamcatcher",
         "JDBC",
         "Nokogiri",
         "Oceana's",
-        "Oceana’s",
         "Omniauth",
         "sealife",
-        "tvpal"
-    ],
-    "ignoreWords": [],
-    "import": []
+        "tvpal",
+        "Etress",
+        "ityped"
+    ]
 }
