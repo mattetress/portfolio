@@ -1,5 +1,4 @@
-import React from "react";
-import { getAllProjects } from "../../ProjectData";
+import { getAllProjects } from "../../data/utils";
 import Project from "./Project";
 import "./projects.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
