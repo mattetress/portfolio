@@ -7,7 +7,7 @@ import Project from "./Project";
 import { getAllProjects } from "../../data/utils";
 import "./projects.scss";
 
-export default function Projects({ currentSlide, setCurrentSlide }) {
+const Projects = ({ currentSlide, setCurrentSlide }) => {
     const handleClick = (dir) => {
         if (dir === "back") {
             setCurrentSlide(
@@ -44,4 +44,6 @@ export default function Projects({ currentSlide, setCurrentSlide }) {
             />
         </div>
     );
-}
+};
+
+export default Projects;

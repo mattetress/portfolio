@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function LangIcon({ language }) {
+const LangIcon = ({ language }) => {
     switch (language) {
         case "javascript":
             return (
@@ -576,4 +574,6 @@ export default function LangIcon({ language }) {
         default:
             return null;
     }
-}
+};
+
+export default LangIcon;

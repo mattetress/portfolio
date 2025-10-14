@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import emailjs, { init } from "emailjs-com";
 import "./contact.scss";
 
-export default function Contact() {
+const Contact = () => {
     init("user_2fpt0IefAXvRE6o6YFmQ8"); // cspell:disable-line
 
     const [formData, setFormData] = useState({
@@ -92,4 +92,5 @@ export default function Contact() {
             </div>
         </div>
     );
-}
+};
+export default Contact;

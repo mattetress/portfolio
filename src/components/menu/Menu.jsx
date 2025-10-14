@@ -1,8 +1,7 @@
-import React from "react";
 import MenuItem from "./MenuItem";
 import "./menu.scss";
 
-export default function Menu({ menuActive, setMenuActive }) {
+const Menu = ({ menuActive, setMenuActive }) => {
     return (
         <div className={"menu " + (menuActive && "active")}>
             <ul>
@@ -33,4 +32,6 @@ export default function Menu({ menuActive, setMenuActive }) {
             </ul>
         </div>
     );
-}
+};
+
+export default Menu;

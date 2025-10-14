@@ -1,11 +1,10 @@
-import React from "react";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faCheck, faEarthAmericas } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import LangIcon from "../langicon/LangIcon";
 import "./project.scss";
 
-export default function Project({ project }) {
+const Project = ({ project }) => {
     function demoLink() {
         if (project.demoURL) {
             return (
@@ -72,4 +71,6 @@ export default function Project({ project }) {
             </div>
         </div>
     );
-}
+};
+
+export default Project;
